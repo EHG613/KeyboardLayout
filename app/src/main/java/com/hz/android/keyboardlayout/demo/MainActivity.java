@@ -1,8 +1,9 @@
 package com.hz.android.keyboardlayout.demo;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.hz.android.keyboardlayout.KeyboardLayout;
 

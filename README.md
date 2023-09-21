@@ -1,10 +1,27 @@
 # KeyboardLayout
-##### 介绍
+## 介绍
 KeyboardLayout 用于监听软键盘的弹起和隐藏。
-##### 使用
+## 使用
 KeyboardLayout 使用简单，只需将其加入到布局文件即可，无其他使用限制，KeyboardLayout只是充当一个布局监听器的作用，即可实现对整个布局树进行监听。
 
-- 布局文件
+##### 添加依赖
+
+- 项目build.gradle添加如下
+  ```java
+  allprojects {
+       repositories {
+           maven { url 'https://jitpack.io' }
+       }
+   }
+  ```
+- app build.gradle添加如下
+   ```java
+  dependencies {
+           implementation 'com.github.EHG613:KeyboardLayout:1.1'
+   }
+  ```
+
+##### 布局文件
 
 ```java
 <android.support.constraint.ConstraintLayout 
@@ -24,7 +41,7 @@ KeyboardLayout 使用简单，只需将其加入到布局文件即可，无其�
 </android.support.constraint.ConstraintLayout   
 
 ```
-- 设置监听
+##### 设置监听
 
 ```java
  KeyboardLayout keyboardLayout = (KeyboardLayout) findViewById(R.id.keyboard_layout);
