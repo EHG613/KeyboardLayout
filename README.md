@@ -1,4 +1,7 @@
 # KeyboardLayout
+
+[![](https://jitpack.io/v/EHG613/KeyboardLayout.svg)](https://jitpack.io/#EHG613/KeyboardLayout)
+
 ## 介绍
 KeyboardLayout 用于监听软键盘的弹起和隐藏。
 ## 使用
